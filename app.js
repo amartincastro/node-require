@@ -7,3 +7,9 @@ fs.appendFile('greetings.txt', 'Hello World!', function (err) {
     console.log('Unable to write to file');
   }
 });
+
+fs.appendFile('bananas.txt', 'Hello Bananas!', function (err) {
+  if (err) {
+    console.log('Unable to write to file');
+  }
+});
