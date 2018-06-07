@@ -7,8 +7,7 @@ const notes = require('./notes.js');
 var res = notes.addNote();
 console.log(res);
 
-var add = notes.add();
-console.log(add);
+console.log('Results:', notes.add(9,-2));
 
 // var user = os.userInfo();
 //
