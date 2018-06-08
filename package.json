@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/amartincastro/node-require/issues"
   },
-  "homepage": "https://github.com/amartincastro/node-require#readme"
+  "homepage": "https://github.com/amartincastro/node-require#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
 }
