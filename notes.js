@@ -8,6 +8,10 @@ var getAll = () => {
   console.log('Getting all notes');
 };
 
+var readNote = () => {
+  console.log('Reading note', title);
+};
+
 module.exports = {
   addNote,
   getAll
